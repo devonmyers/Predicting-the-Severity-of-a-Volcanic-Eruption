@@ -9,7 +9,7 @@ This one-off accuracy allows a predicted value to be considered 'correct' if it 
 The thought process behind one-off accuracy is that if my model predicts a volcanic eruption will be a 5.0, and it turns out that the actual eruption is 4.0, it is not that far off the mark.
 Basically, if the model predicts a bad enough eruption (i.e. 3.0 or higher), it is probably a good idea to pack things up and evacuate!
 
-Data exploration was carried out using both JMP 14 for visualization and also Python code found in the volcano_eruption_analysis.ipynp.
-The .ipynp file called XGBoost_volcano_model contains code to run the VEI predictor.
+Data exploration was carried out using both JMP 14 for visualization and also Python code found in the VolcanoEruptionAnalysis.ipynp.
+The .ipynp file called XGBoostVolcanoModel contains code to run the VEI predictor.
 This model relies on imputed data and oversampling to handle imbalance in VEI.
 To run the VEI predictor, simply download the .ipynp file mentioned previously,  and also the merged_info_volcanoes.csv file.
