@@ -12,4 +12,4 @@ Basically, if the model predicts a bad enough eruption (i.e. 3.0 or higher), it 
 Data exploration was carried out using both JMP 14 for visualization and also Python code found in the VolcanoEruptionAnalysis.ipynp.
 The .ipynp file called XGBoostVolcanoModel contains code to run the VEI predictor.
 This model relies on imputed data and oversampling to handle imbalance in VEI.
-To run the VEI predictor, simply download the .ipynp file mentioned previously,  and also the merged_info_volcanoes.csv file.
+To run the VEI predictor, simply download the .ipynp file mentioned previously,  and also the imputed_volcanoes.csv file.
